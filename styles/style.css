@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 * {
+	font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
 }
 
 body{ 
-
+    background: #1A2980;  
+	background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  
+	background: linear-gradient(to right, #26D0CE, #1A2980); 
 	color: #fff;
 	display: flex;	
 	flex-direction: column;
@@ -14,7 +19,8 @@ body{
 }
 
 h2{
-  margin: 10px 0 20px;
+	font-size: 32px;
+    margin: 10px 0 20px;
 	text-align: center;
 }
 
@@ -25,12 +31,12 @@ input[type=checkbox] {
 
 
 .box {
-  background: #0f0c29;  
-  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
-  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);   
+    background: #1e3c72; 
+	background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  
+	background: linear-gradient(to right, #2a5298, #1e3c72); 
 	box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
 	padding: 20px;
-	width: 350px;
+	width: 400px;
 	max-width: 100%;
 }
 
@@ -48,7 +54,7 @@ input[type=checkbox] {
 }
 .result #result{
   word-wrap: break-word;
-	max-width: calc(100% - 40px);
+  max-width: calc(100% - 40px);
 }
 
 .result .btn {
@@ -57,7 +63,7 @@ input[type=checkbox] {
 	top: 5px;
 	right: 5px;
 	height: 40px;
-	width: 40px;
+	width: 100px;
 }
 
 
@@ -67,7 +73,7 @@ input[type=checkbox] {
 	cursor: pointer;
 	font-size: 16px;
 	padding: 8px 12px;
-	background-color: #3B3B98;
+	background-color: #2193b0;
 }
 
 .btn-lg{
@@ -81,3 +87,4 @@ input[type=checkbox] {
 	align-items: center;
 	margin: 15px 0;
 }
+

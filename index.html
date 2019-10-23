@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Password Generator</title>
     <link rel="stylesheet" type="text/css" href="styles/reset.css"/>
-    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />    
 </head>
 
 <body class="background">
@@ -15,7 +15,9 @@
         <h2>Password Generator</h2>
         <div class="result">
             <span id="result"></span>
-            <button class="btn" id="clipboard">Copy</button>
+            <button class="btn" id="clipboard">
+               Copy
+            </button>
         </div>
         <div>
             <div class="config">
@@ -24,23 +26,23 @@
             </div>
             <div  class="config">
                 <label>Include lowercase letters</label>
-                <input type="checkbox" id="lowercase" checked />
+                <input type="checkbox" class="switch" id="lowercase" checked />
             </div>
             <div  class="config">
                 <label>Include uppercase letters</label>
-                <input type="checkbox" id="uppercase" checked />
+                <input type="checkbox" class="switch" id="uppercase" checked />
             </div>
             <div  class="config"> 
                 <label>Include numbers</label>
-                <input type="checkbox" id="numbers" checked />
+                <input type="checkbox" class="switch" id="numbers" checked />
             </div>
             <div  class="config">
                 <label>Include symbols</label>
-                <input type="checkbox" id="symbols" checked />
+                <input type="checkbox" class="switch" id="symbols" checked />
             </div>
         </div>
         <div>
-            <button class="btn btn-lg" id="generate">
+            <button class="btn btn-lg" class="switch" id="generate">
                 Generate password
             </button>
         </div>
